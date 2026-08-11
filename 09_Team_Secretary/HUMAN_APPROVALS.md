@@ -11,9 +11,10 @@
 | Request ID | Description | Sent Date | Status | Impact / Blocked Stream |
 |---|---|---|---|---|
 | REQ-001 | Visual UI/UX Prototype Validation (`01_SDR_Prototype` & `02_ZAP_Prototype`) | Aug 11, 2026 | [PENDING HUMAN REVIEW] | Stream 4 UI Jinja2/HTMX visual styling |
-| REQ-002 | Supabase DB Credentials (`SUPABASE_URL`, keys, async connection string) | Aug 11, 2026 | [EMAIL DISPATCHED] | Stream 7 Database live connection setup |
+| REQ-002 | Supabase DB Credentials (`SUPABASE_URL`, keys, async connection string) | Aug 11, 2026 | [CONFIRMED & CONNECTED] | Stream 7 Database live connection setup |
 | REQ-003 | AI API Keys (`OPENAI_API_KEY`, `GEMINI_API_KEY`, `ANTHROPIC_API_KEY`) | Aug 11, 2026 | [EMAIL DISPATCHED] | Stream 2 AI Graph & Vector Embeddings |
 | REQ-004 | Z-API WhatsApp Webhook Credentials (`ZAPI_INSTANCE_ID`, tokens) | Aug 11, 2026 | [EMAIL DISPATCHED] | Stream 3 Backend Async Ingestion |
+| REQ-005 | Core Multi-Tenant Database Infrastructure (Alembic DDL, LangGraph Checkpointers, RLS) | Aug 11, 2026 | [APPROVED & COMPLETED] | Stream 1 Core Database Infrastructure |
 
 ---
 
