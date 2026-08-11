@@ -111,6 +111,16 @@ END:VCALENDAR"""
     
     return str(path)
 
+def build_gcal_url(title, start_dt, end_dt, description="", location=""):
+    """Construct a direct 1-Click Google Calendar web event creation URL."""
+    from urllib.parse import quote
+    start_utc = start_dt.strftime("%Y%m%dT%H%M%SZ")
+    end_utc = end_dt.strftime("%Y%m%dT%H%M%SZ")
+    
+    base_url = "https://calendar.google.com/calendar/render?action=TEMPLATE"
+    url = f"{base_url}&text={quote(title)}&dates={start_utc}/{end_utc}&details={quote(description or '')}&location={quote(location or '')}"
+    return url
+
 def send_calendar_invite_email(title, start_dt, end_dt, description="", location="", recipient=None):
     """Send an .ics calendar invite attachment via send_email.py."""
     if not send_email:
@@ -122,6 +132,7 @@ def send_calendar_invite_email(title, start_dt, end_dt, description="", location
     target_recipient = recipient or os.getenv("RECIPIENT_EMAIL", "fernando8cfo@gmail.com")
 
     ics_path = generate_ics_file(title, start_dt, end_dt, description, location)
+    gcal_link = build_gcal_url(title, start_dt, end_dt, description, location)
 
     start_formatted = start_dt.strftime("%A, %B %d, %Y at %I:%M %p")
     end_formatted = end_dt.strftime("%I:%M %p")
@@ -137,7 +148,12 @@ def send_calendar_invite_email(title, start_dt, end_dt, description="", location
           <p><strong>Location:</strong> {location or 'N/A'}</p>
           <p><strong>Details:</strong> {description or 'N/A'}</p>
         </div>
-        <p><i>An <code>.ics</code> calendar invite is attached. Open the attachment to add it to your calendar automatically.</i></p>
+        <p style="margin-top: 20px;">
+          <a href="{gcal_link}" style="background-color: #4f46e5; color: white; padding: 10px 18px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;">
+            ➕ Add directly to Google Calendar
+          </a>
+        </p>
+        <p style="font-size: 12px; color: #666; margin-top: 15px;"><i>An <code>.ics</code> calendar invite is also attached. Open the attachment to add it to Apple Calendar or Outlook.</i></p>
       </body>
     </html>
     """
@@ -151,6 +167,7 @@ def send_calendar_invite_email(title, start_dt, end_dt, description="", location
         is_html=True
     )
     print(f"Successfully emailed calendar invite for '{title}' to {target_recipient}!")
+    print(f"1-Click Google Calendar Link: {gcal_link}")
     return True
 
 def main():
