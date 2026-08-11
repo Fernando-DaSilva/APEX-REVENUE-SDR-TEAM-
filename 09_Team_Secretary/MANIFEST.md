@@ -14,3 +14,4 @@
 3. Close collaboration with Pax (`08_Project_Manager`) to evaluate escalation triggers.
 4. Maintenance of pending human approvals registry.
 5. Administrative record-keeping of meeting decisions, team notes, and external inputs.
+6. Archival and maintenance of all project conversation transcripts and user communications in `09_Team_Secretary/CONVERSATION_HISTORY/`.

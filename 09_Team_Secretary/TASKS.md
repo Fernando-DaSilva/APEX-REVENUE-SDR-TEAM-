@@ -7,3 +7,4 @@
 | T9.3 | Dispatch credential/API key request emails when needed | As Needed | [VERIFIED] | `scripts/send_email.py` Execution |
 | T9.4 | Synthesize sprint milestone reports for human review | Bi-Weekly | [PLANNED] | Milestone Digest Artifacts |
 | T9.5 | Schedule calendar events & dispatch `.ics` invites for meetings/milestones | As Needed | [VERIFIED] | `scripts/add_calendar_event.py` |
+| T9.6 | Maintain subfolder history archive of all project conversations | Continuous | [ACTIVE & VERIFIED] | `09_Team_Secretary/CONVERSATION_HISTORY/` |

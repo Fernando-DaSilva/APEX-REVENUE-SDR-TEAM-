@@ -10,4 +10,5 @@
   - White-Label branding design sign-off or domain configuration.
 - **Protocol**:
   - Email notification drafted with concise problem context, proposed options, and direct action link/reply request.
-  - Track pending approval state in `09_Team_Secretary/TASKS.md`.
+  - Track pending approval state in `09_Team_Secretary/TASKS.md` & `09_Team_Secretary/HUMAN_APPROVALS.md`.
+  - Maintain an ongoing subfolder history archive of all user & team conversations in `09_Team_Secretary/CONVERSATION_HISTORY/`.
