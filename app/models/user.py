@@ -18,6 +18,12 @@ class User(SQLModel, table=True):
     hashed_password: str = Field(nullable=False)
     full_name: str = Field(nullable=False)
     role: str = Field(default="sdr", index=True, nullable=False)
+    avatar_url: Optional[str] = Field(default=None)
+    department: Optional[str] = Field(default=None, index=True)
+    workload_active_leads: int = Field(default=0)
+    status: str = Field(default="online", index=True) # online, busy, offline, suspended
     is_active: bool = Field(default=True, nullable=False)
+    last_access_at: Optional[datetime] = Field(default=None)
     created_at: datetime = Field(default_factory=datetime.utcnow, nullable=False)
     updated_at: datetime = Field(default_factory=datetime.utcnow, nullable=False)
+

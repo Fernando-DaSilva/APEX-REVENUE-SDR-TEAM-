@@ -1,0 +1,375 @@
+[
+  {
+    "id": "evt_1787233025201",
+    "timestamp": "16:37:05",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "SIM_MSG_1787233025201",
+    "phone": "5511988887777",
+    "senderName": "Fernando UI Test Lead",
+    "message": "Test capturing text back in Sandbox UI",
+    "fromMe": false,
+    "status": "captured",
+    "latency_ms": 8.5,
+    "raw_payload": {
+      "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+      "messageId": "SIM_MSG_1787233025201",
+      "phone": "5511988887777",
+      "fromMe": false,
+      "senderName": "Fernando UI Test Lead",
+      "text": {
+        "message": "Test capturing text back in Sandbox UI"
+      },
+      "momment": 1787233025201,
+      "status": "RECEIVED"
+    }
+  },
+  {
+    "id": "evt_1787233025199",
+    "timestamp": "16:37:05",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "SIM_MSG_1787233025199",
+    "phone": "5511933334444",
+    "senderName": "Dra. Renata Mello",
+    "message": "Quero solicitar uma proposta comercial para minha clínica.",
+    "fromMe": false,
+    "status": "captured",
+    "latency_ms": 8.5,
+    "raw_payload": {
+      "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+      "messageId": "SIM_MSG_1787233025199",
+      "phone": "5511933334444",
+      "fromMe": false,
+      "senderName": "Dra. Renata Mello",
+      "text": {
+        "message": "Quero solicitar uma proposta comercial para minha clínica."
+      },
+      "momment": 1787233025199,
+      "status": "RECEIVED"
+    }
+  },
+  {
+    "id": "out_1787233025196",
+    "timestamp": "16:37:05",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "ZAAP_MSG_5501",
+    "phone": "5511911112222",
+    "senderName": "APEX SDR OS (Outbound)",
+    "message": "Olá Carlos, agendado para amanhã às 14h.",
+    "fromMe": true,
+    "status": "outbound_sent",
+    "latency_ms": 0.0,
+    "raw_payload": {
+      "phone": "5511911112222",
+      "message": "Olá Carlos, agendado para amanhã às 14h."
+    }
+  },
+  {
+    "id": "evt_1787233025138",
+    "timestamp": "16:37:05",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "INBOUND_TEST_9901",
+    "phone": "5511988889999",
+    "senderName": "Carlos Silva - Lead Target",
+    "message": "Olá! Gostaria de agendar uma demonstração do SDR OS.",
+    "fromMe": false,
+    "status": "captured",
+    "latency_ms": 4.2,
+    "raw_payload": {
+      "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+      "messageId": "INBOUND_TEST_9901",
+      "phone": "5511988889999",
+      "fromMe": false,
+      "text": {
+        "message": "Olá! Gostaria de agendar uma demonstração do SDR OS."
+      },
+      "senderName": "Carlos Silva - Lead Target"
+    }
+  },
+  {
+    "id": "evt_1787233025137",
+    "timestamp": "16:37:05",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "ECHO_TEST_001",
+    "phone": "5511988889999",
+    "senderName": "APEX SDR Agent",
+    "message": "Resposta automática do SDR Agent.",
+    "fromMe": true,
+    "status": "ignored_echo",
+    "latency_ms": 0.0,
+    "raw_payload": {
+      "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+      "messageId": "ECHO_TEST_001",
+      "phone": "5511988889999",
+      "fromMe": true,
+      "text": {
+        "message": "Resposta automática do SDR Agent."
+      },
+      "senderName": "APEX SDR Agent"
+    }
+  },
+  {
+    "id": "evt_1787232382930",
+    "timestamp": "16:26:22",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "SIM_MSG_1787232382930",
+    "phone": "5511988887777",
+    "senderName": "Fernando UI Test Lead",
+    "message": "Test capturing text back in Sandbox UI",
+    "fromMe": false,
+    "status": "captured",
+    "latency_ms": 8.5,
+    "raw_payload": {
+      "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+      "messageId": "SIM_MSG_1787232382930",
+      "phone": "5511988887777",
+      "fromMe": false,
+      "senderName": "Fernando UI Test Lead",
+      "text": {
+        "message": "Test capturing text back in Sandbox UI"
+      },
+      "momment": 1787232382930,
+      "status": "RECEIVED"
+    }
+  },
+  {
+    "id": "evt_1787232382927",
+    "timestamp": "16:26:22",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "SIM_MSG_1787232382927",
+    "phone": "5511933334444",
+    "senderName": "Dra. Renata Mello",
+    "message": "Quero solicitar uma proposta comercial para minha clínica.",
+    "fromMe": false,
+    "status": "captured",
+    "latency_ms": 8.5,
+    "raw_payload": {
+      "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+      "messageId": "SIM_MSG_1787232382927",
+      "phone": "5511933334444",
+      "fromMe": false,
+      "senderName": "Dra. Renata Mello",
+      "text": {
+        "message": "Quero solicitar uma proposta comercial para minha clínica."
+      },
+      "momment": 1787232382927,
+      "status": "RECEIVED"
+    }
+  },
+  {
+    "id": "out_1787232382926",
+    "timestamp": "16:26:22",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "ZAAP_MSG_5501",
+    "phone": "5511911112222",
+    "senderName": "APEX SDR OS (Outbound)",
+    "message": "Olá Carlos, agendado para amanhã às 14h.",
+    "fromMe": true,
+    "status": "outbound_sent",
+    "latency_ms": 0.0,
+    "raw_payload": {
+      "phone": "5511911112222",
+      "message": "Olá Carlos, agendado para amanhã às 14h."
+    }
+  },
+  {
+    "id": "evt_1787232382878",
+    "timestamp": "16:26:22",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "INBOUND_TEST_9901",
+    "phone": "5511988889999",
+    "senderName": "Carlos Silva - Lead Target",
+    "message": "Olá! Gostaria de agendar uma demonstração do SDR OS.",
+    "fromMe": false,
+    "status": "captured",
+    "latency_ms": 4.2,
+    "raw_payload": {
+      "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+      "messageId": "INBOUND_TEST_9901",
+      "phone": "5511988889999",
+      "fromMe": false,
+      "text": {
+        "message": "Olá! Gostaria de agendar uma demonstração do SDR OS."
+      },
+      "senderName": "Carlos Silva - Lead Target"
+    }
+  },
+  {
+    "id": "evt_1787232382877",
+    "timestamp": "16:26:22",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "ECHO_TEST_001",
+    "phone": "5511988889999",
+    "senderName": "APEX SDR Agent",
+    "message": "Resposta automática do SDR Agent.",
+    "fromMe": true,
+    "status": "ignored_echo",
+    "latency_ms": 0.0,
+    "raw_payload": {
+      "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+      "messageId": "ECHO_TEST_001",
+      "phone": "5511988889999",
+      "fromMe": true,
+      "text": {
+        "message": "Resposta automática do SDR Agent."
+      },
+      "senderName": "APEX SDR Agent"
+    }
+  },
+  {
+    "id": "out_1787232377117",
+    "timestamp": "16:26:17",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "01A01F59D90B74AC9219652B5E236E28",
+    "phone": "37063900500",
+    "senderName": "APEX SDR OS (Outbound)",
+    "message": "Olá Fernando! Teste do sistema APEX Revenue SDR OS para validação do usuário Fernando (+37063900500).",
+    "fromMe": true,
+    "status": "outbound_sent",
+    "latency_ms": 0.0,
+    "raw_payload": {
+      "phone": "37063900500",
+      "message": "Olá Fernando! Teste do sistema APEX Revenue SDR OS para validação do usuário Fernando (+37063900500)."
+    }
+  },
+  {
+    "id": "evt_1787232068206",
+    "timestamp": "16:21:08",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "SIM_MSG_1787232068206",
+    "phone": "5511988887777",
+    "senderName": "Fernando UI Test Lead",
+    "message": "Test capturing text back in Sandbox UI",
+    "fromMe": false,
+    "status": "captured",
+    "latency_ms": 8.5,
+    "raw_payload": {
+      "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+      "messageId": "SIM_MSG_1787232068206",
+      "phone": "5511988887777",
+      "fromMe": false,
+      "senderName": "Fernando UI Test Lead",
+      "text": {
+        "message": "Test capturing text back in Sandbox UI"
+      },
+      "momment": 1787232068206,
+      "status": "RECEIVED"
+    }
+  },
+  {
+    "id": "evt_1787232068205",
+    "timestamp": "16:21:08",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "SIM_MSG_1787232068205",
+    "phone": "5511933334444",
+    "senderName": "Dra. Renata Mello",
+    "message": "Quero solicitar uma proposta comercial para minha clínica.",
+    "fromMe": false,
+    "status": "captured",
+    "latency_ms": 8.5,
+    "raw_payload": {
+      "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+      "messageId": "SIM_MSG_1787232068205",
+      "phone": "5511933334444",
+      "fromMe": false,
+      "senderName": "Dra. Renata Mello",
+      "text": {
+        "message": "Quero solicitar uma proposta comercial para minha clínica."
+      },
+      "momment": 1787232068205,
+      "status": "RECEIVED"
+    }
+  },
+  {
+    "id": "out_1787232068204",
+    "timestamp": "16:21:08",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "ZAAP_MSG_5501",
+    "phone": "5511911112222",
+    "senderName": "APEX SDR OS (Outbound)",
+    "message": "Olá Carlos, agendado para amanhã às 14h.",
+    "fromMe": true,
+    "status": "outbound_sent",
+    "latency_ms": 0.0,
+    "raw_payload": {
+      "phone": "5511911112222",
+      "message": "Olá Carlos, agendado para amanhã às 14h."
+    }
+  },
+  {
+    "id": "evt_1787232068162",
+    "timestamp": "16:21:08",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "INBOUND_TEST_9901",
+    "phone": "5511988889999",
+    "senderName": "Carlos Silva - Lead Target",
+    "message": "Olá! Gostaria de agendar uma demonstração do SDR OS.",
+    "fromMe": false,
+    "status": "captured",
+    "latency_ms": 4.2,
+    "raw_payload": {
+      "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+      "messageId": "INBOUND_TEST_9901",
+      "phone": "5511988889999",
+      "fromMe": false,
+      "text": {
+        "message": "Olá! Gostaria de agendar uma demonstração do SDR OS."
+      },
+      "senderName": "Carlos Silva - Lead Target"
+    }
+  },
+  {
+    "id": "evt_1787232068161",
+    "timestamp": "16:21:08",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "ECHO_TEST_001",
+    "phone": "5511988889999",
+    "senderName": "APEX SDR Agent",
+    "message": "Resposta automática do SDR Agent.",
+    "fromMe": true,
+    "status": "ignored_echo",
+    "latency_ms": 0.0,
+    "raw_payload": {
+      "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+      "messageId": "ECHO_TEST_001",
+      "phone": "5511988889999",
+      "fromMe": true,
+      "text": {
+        "message": "Resposta automática do SDR Agent."
+      },
+      "senderName": "APEX SDR Agent"
+    }
+  },
+  {
+    "id": "out_1787232060327",
+    "timestamp": "16:21:00",
+    "date": "2026-08-20",
+    "instanceId": "3F7CDA470843917372BC9E4132DEE0C8",
+    "messageId": "01A01F55037E785595A826EB2F2684B6",
+    "phone": "5515981270383",
+    "senderName": "APEX SDR OS (Outbound)",
+    "message": "Teste de persistência em arquivo disk-store para o Renato",
+    "fromMe": true,
+    "status": "outbound_sent",
+    "latency_ms": 0.0,
+    "raw_payload": {
+      "phone": "5515981270383",
+      "message": "Teste de persistência em arquivo disk-store para o Renato"
+    }
+  }
+]

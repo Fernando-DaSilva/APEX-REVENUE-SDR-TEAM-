@@ -34,7 +34,7 @@ Every subagent member of the APEX Team must strictly uphold these 17 invariants:
 12. **Full Observability**: 100% of LangGraph runs stream telemetry to LangSmith labeled with `organization_id`. Application logs use Structlog JSON Lines.
 13. **Valkey/Redis & Local Caching**: White-label themes, JWT blacklists, and rate limits use multi-tier caching.
 14. **Supabase PostgreSQL & Vector Architecture**: Unified Supabase Managed PostgreSQL 16+ with `pgvector` HNSW index ($< 15\text{ ms}$) and `tsvector` BM25 RRF for hybrid RAG search.
-15. **Meta WhatsApp 24h Window & Anti-Ban Compliance**: Freeform messages blocked after 24h window (forcing approved HSM templates). Outbound rate limits (1 msg/3-5s) with human jitter (2s-6s) and `composing` status.
+15. **Meta WhatsApp 24h Window & Anti-Ban/Anti-Bulk-Spam Compliance**: Freeform messages blocked after 24h window (forcing approved HSM templates). Outbound rate limits (1 msg/3-5s) with human jitter (2s-6s) and `composing` status. **STRICT BULK SPAM RULE**: Identical message text sent to multiple leads is strictly forbidden to prevent WhatsApp account spam blocks. All multi-recipient dispatches MUST apply dynamic content variation (LLM spintax/synonym jitter, lead name personalization, and randomized opening/closing phrases).
 16. **Autonomous Execution in Micro-Sprints (1h-4h)**: Tasks decomposed into atomic 1h-4h micro-sprints backed by sub-minute ($< 60\text{s}$) CI verification.
 17. **Topological Respect to 5 Streams**: Independent development adhering strictly to OpenAPI 3.1 contracts.
 

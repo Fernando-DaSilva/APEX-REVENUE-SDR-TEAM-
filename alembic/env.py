@@ -1,12 +1,14 @@
 import os
+import sys
 from logging.config import fileConfig
 from dotenv import load_dotenv
 from sqlalchemy import engine_from_config, pool
 from sqlmodel import SQLModel
 
+sys.path.insert(0, os.path.abspath("."))
+
 from alembic import context
-from app.db.base import DATABASE_SYNC_URL
-from app.models import Conversation, Lead, Opportunity, Organization, User
+from app.models import *
 
 load_dotenv()
 
@@ -16,6 +18,7 @@ if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
 target_metadata = SQLModel.metadata
+DATABASE_SYNC_URL = os.getenv("DATABASE_SYNC_URL")
 
 
 def run_migrations_offline() -> None:
